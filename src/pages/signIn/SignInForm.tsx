@@ -6,11 +6,11 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const layout = {
-  labelCol: { span: 8 },
-  wrapperCol: { span: 16 },
+  labelCol: { span: 6 },
+  wrapperCol: { span: 17},
 };
 const tailLayout = {
-  wrapperCol: { offset: 8, span: 16 },
+  wrapperCol: { offset: 4, span: 24 },
 };
 
 export const SignInForm = () => {
