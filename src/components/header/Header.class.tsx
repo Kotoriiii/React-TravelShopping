@@ -3,10 +3,8 @@ import styles from "./Header.module.css";
 import logo from "../../assets/logo.svg";
 import { Layout, Typography, Input, Menu, Button, Dropdown } from "antd";
 import { GlobalOutlined } from "@ant-design/icons";
-import { useParams, useLocation, useNavigate } from "react-router-dom";
 import { withRouter, RouteComponentProps } from "../../helpers/withRouter";
 import rootStore from "../../redux/store";
-import { LanguageState } from "../../redux/language/languageReducer";
 import { withTranslation, WithTranslation } from "react-i18next";
 import {
   addLanguageActionCreator,

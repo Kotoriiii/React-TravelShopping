@@ -39,12 +39,12 @@ export const UserLayout: React.FC<PropsTypes> = (props) => {
             </Link>
           </div>
           <div className={styles["desc"]}>
-            慕课网 是我朝最具影响力的 线上课程学习网站
+
           </div>
           {props.children}
         </div>
       </Content>
-      <Footer style={{ textAlign: "center" }}>Footer就不写了，太累了</Footer>
+      <Footer style={{ textAlign: "center" }}>copyright @XXX</Footer>
     </Layout>
   );
 };

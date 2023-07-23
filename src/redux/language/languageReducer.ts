@@ -1,5 +1,9 @@
 import i18n from "i18next";
-import { CHANGE_LANGUAGE, ADD_LANGUAGE, LanguageActionTypes } from "./languageActions";
+import {
+  CHANGE_LANGUAGE,
+  ADD_LANGUAGE,
+  LanguageActionTypes,
+} from "./languageActions";
 
 export interface LanguageState {
   language: "en" | "zh";
@@ -14,6 +18,7 @@ const defaultState: LanguageState = {
   ],
 };
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (state = defaultState, action: LanguageActionTypes) => {
   switch (action.type) {
     case CHANGE_LANGUAGE:
